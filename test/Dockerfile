@@ -1,1 +1,1 @@
-FROM nginx:1.23.3
+FROM nginx:stable-trixie@sha256:0e99fef52612699fd524e2a5111e8c6397cf29f24ae1b48d3902b8d65b14bbbf
