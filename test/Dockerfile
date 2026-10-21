@@ -1,1 +1,2 @@
-FROM nginx:stable-trixie@sha256:0e99fef52612699fd524e2a5111e8c6397cf29f24ae1b48d3902b8d65b14bbbf
+FROM nginx:stable-alpine@sha256:970364228b1e4f932abc22d321932816782cca8a20b85a77552a7cfe9acfb3b5
+RUN apk upgrade --no-cache
